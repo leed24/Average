@@ -6,9 +6,9 @@ public class tryin {
     public static void avg(){
         Scanner input= new Scanner (System.in);
         System.out.print("What is your first number: ");
-        double num1 = input.nextDouble();
+        int num1 = input.nextInt();
         System.out.print("What is your second number: ");
-        double num2 = input.nextDouble();
+        int num2 = input.nextInt();
         System.out.print("The avg. of your two numbers is: "+ (num1+num2)/2 );
     }
 }
